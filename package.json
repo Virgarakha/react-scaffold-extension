@@ -1,0 +1,54 @@
+{
+  "name": "react-auth-scaffold",
+  "displayName": "React Sangar Dan Mudah",
+  "description": "🚀 Extension VSCode untuk membuat scaffolding autentikasi di project React + Vite hanya dengan 1 klik.",
+  "version": "0.1.1",
+  "publisher": "virgarakha",
+  "icon": "icons.png",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/virgarakha/react-auth-scaffold.git"
+  },
+  "keywords": [
+    "react",
+    "vite",
+    "auth",
+    "scaffold",
+    "boilerplate"
+  ],
+  "activationEvents": [
+    "onCommand:extension.createReactAuth"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.createReactAuth",
+        "title": "React: Create Auth"
+      },
+      {
+        "command": "extension.createCrud",
+        "title": "React: Create CRUD"
+      }
+    ]
+  }
+  ,
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.90.0",
+    "typescript": "^5.0.0",
+    "vsce": "^2.15.0"
+  }
+}
