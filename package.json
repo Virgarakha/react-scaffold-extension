@@ -2,7 +2,7 @@
   "name": "react-auth-scaffold",
   "displayName": "React Sangar Dan Mudah",
   "description": "🚀 Extension VSCode untuk membuat scaffolding autentikasi di project React + Vite hanya dengan 1 klik.",
-  "version": "0.1.1",
+  "version": "0.1.9",
   "publisher": "virgarakha",
   "icon": "icons.png",
   "engines": {
