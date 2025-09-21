@@ -74,9 +74,9 @@ src/pages/
 ### 1. Unduh File `.vsix` Secara Otomatis
 Klik tombol di bawah ini untuk mengunduh file `.vsix` rilisan terbaru secara langsung:
 
-[<img src="https://img.shields.io/badge/Download%20Now-blue?logo=download&style=for-the-badge" alt="Download Now">](https://github.com/Virgarakha/react-scaffold-extension/raw/refs/heads/main/react-auth-scaffold-0.1.3.vsix)
+[<img src="https://img.shields.io/badge/Download%20Now-blue?logo=download&style=for-the-badge" alt="Download Now">](https://github.com/Virgarakha/react-scaffold-extension/raw/refs/heads/main/react-auth-scaffold-0.1.9.vsix)
 
-- **Catatan**: Ganti URL di atas dengan tautan rilisan terbaru Anda (misalnya, `v0.0.8` untuk versi berikutnya).
+- **Catatan**: Ganti URL di atas dengan tautan rilisan terbaru Anda (misalnya, `v0.1.9` untuk versi berikutnya).
 - Jika tautan tidak berfungsi, kunjungi [halaman Releases](https://github.com/Virgarakha/react-scaffold-extension) untuk mengunduh manual.
 
 ### 2. Instalasi di VS Code
