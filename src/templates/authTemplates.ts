@@ -328,24 +328,16 @@ export default Home;
 
 export function getPrivateRouteTemplate(options: AuthTemplateOptions): string {
   return `
-import React, { useContext, useEffect } from "react";
-import { AuthContext } from "../context/AuthContext";
-import { Outlet, useNavigate } from "react-router-dom";
+import { Navigate, Outlet } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 
 const PrivateRoute = () => {
-     const {token} = useContext(AuthContext);
-     const navigate = useNavigate();
-
-     useEffect(()=> {
-        if(!token) {
-            navigate('/login')
-        }
-     }, [token, navigate])
-
-     return token ? <Outlet/> : null
-}
+  const { token } = useAuth();
+  return token ? <Outlet /> : <Navigate to="/login" />;
+};
 
 export default PrivateRoute;
+
 `;
 }
 

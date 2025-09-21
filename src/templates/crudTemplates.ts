@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import { Plus, Search, Eye, Edit, Trash2, Package } from 'lucide-react';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+const API_BASE_URL = 'http://localhost:8000/api';
 
 const ${name} = () => {
   const [data, setData] = useState([]);
@@ -200,7 +200,7 @@ import { useNavigate, Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import { Save, ArrowLeft, Package } from 'lucide-react';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+const API_BASE_URL = 'http://localhost:8000/api';
 
 const ${name}Create = () => {
   const navigate = useNavigate();
@@ -340,7 +340,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import { Save, ArrowLeft, Package } from 'lucide-react';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+const API_BASE_URL = 'http://localhost:8000/api';
 
 const ${name}Update = () => {
   const { id } = useParams();
@@ -509,7 +509,7 @@ import { useParams, Link } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthContext';
 import { ArrowLeft, Edit, Package, DollarSign, FileText, Calendar } from 'lucide-react';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
+const API_BASE_URL = 'http://localhost:8000/api';
 
 const ${name}Detail = () => {
   const { id } = useParams();
